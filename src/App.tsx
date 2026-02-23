@@ -18,7 +18,7 @@ const App: React.FC = () => {
     window.scrollTo({ top: y, behavior: 'smooth' });
   };
 
-  const whatsappNumber = '1234567890'; // Replace with real number, digits only
+  const whatsappNumber = '8885635000';
 
   return (
     <div>
@@ -219,7 +219,7 @@ const App: React.FC = () => {
                 <ul className="contact-list">
                   <li>
                     <span className="label">Email</span>
-                    <a href="mailto:your.email@example.com">bhkoti@gmail.com</a>
+                    <a href="mailto:bhkoti@gmail.com">bhkoti@gmail.com</a>
                   </li>
                   <li>
                     <span className="label">Location</span>
@@ -242,7 +242,7 @@ const App: React.FC = () => {
                   <li>
                     <span className="label">WhatsApp</span>
                     <a
-                      href={`https://wa.me/${8885635000}`}
+                      href={`https://wa.me/${whatsappNumber}`}
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -257,7 +257,7 @@ const App: React.FC = () => {
       </main>
 
       <a
-        href={`https://wa.me/${8885635000}`}
+        href={`https://wa.me/${whatsappNumber}`}
         className="whatsapp-fab"
         target="_blank"
         rel="noreferrer"
