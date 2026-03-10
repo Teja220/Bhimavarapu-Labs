@@ -175,9 +175,13 @@ const App: React.FC = () => {
               aria-expanded={isMobileNavOpen}
               onClick={() => setIsMobileNavOpen((open) => !open)}
             >
-              <span className="nav-toggle-bar" />
-              <span className="nav-toggle-bar" />
-              <span className="nav-toggle-bar" />
+              <span className="nav-toggle-label">Menu</span>
+              <span
+                className={`nav-toggle-chevron ${
+                  isMobileNavOpen ? 'nav-toggle-chevron-open' : ''
+                }`}
+                aria-hidden="true"
+              />
             </button>
           </nav>
         </div>
