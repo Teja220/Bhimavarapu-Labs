@@ -519,7 +519,7 @@ const App: React.FC = () => {
                   </li>
                   <li>
                     <span className="label">WhatsApp</span>
-                    <a href={`https://wa.me/${whatsappNumber}`} target="_blank" rel="noreferrer">
+                    <a href={`https://wa.me/${8885635000}`} target="_blank" rel="noreferrer">
                       Click to chat
                     </a>
                   </li>
