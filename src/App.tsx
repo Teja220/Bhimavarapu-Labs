@@ -171,11 +171,10 @@ const App: React.FC = () => {
             <button
               type="button"
               className="nav-toggle"
-              aria-label="Toggle navigation menu"
+              aria-label={isMobileNavOpen ? 'Close navigation menu' : 'Open navigation menu'}
               aria-expanded={isMobileNavOpen}
               onClick={() => setIsMobileNavOpen((open) => !open)}
             >
-              <span className="sr-only">Toggle navigation menu</span>
               <span
                 className={`nav-toggle-icon ${
                   isMobileNavOpen ? 'nav-toggle-icon-open' : ''
