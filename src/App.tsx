@@ -175,12 +175,7 @@ const App: React.FC = () => {
               aria-expanded={isMobileNavOpen}
               onClick={() => setIsMobileNavOpen((open) => !open)}
             >
-              <span
-                className={`nav-toggle-icon ${
-                  isMobileNavOpen ? 'nav-toggle-icon-open' : ''
-                }`}
-                aria-hidden="true"
-              >
+              <span className="nav-toggle-icon" aria-hidden="true">
                 <span className="nav-toggle-line" />
                 <span className="nav-toggle-line" />
                 <span className="nav-toggle-line" />
